@@ -10,8 +10,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor[10], pares[10]
-		inteiro i, j, soma
+		inteiro vetor[10]
+		inteiro i, soma
 		real media
 
 		/*ler os elementos do vetor*/
@@ -32,16 +32,12 @@ programa
 
 		/*imprimir os valores pares*/
 		j=0
+		escreva("\nOs elementos pares do vetor são: ")
 		para(i=0; i<10; i++){
 			se(vetor[i]%2==0){
-				pares[j] = vetor[i]
-				j+=1
+				escreva(vetor[i], " ")
 				}
 			}
-		escreva("\nOs elementos pares do vetor são: ")
-		para(i=0; i<j; i++)
-			escreva(pares[i], " ")
-
 
 		/*calcular soma e média dos elementos do vetor*/
 		soma = 0
