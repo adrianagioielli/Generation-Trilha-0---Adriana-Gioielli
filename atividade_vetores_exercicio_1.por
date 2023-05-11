@@ -1,3 +1,6 @@
+/*Dado um vetor contendo 10 números inteiros não ordenados, construa um algoritmo
+que consiga ordenar o vetor em ordem decrescente.*/
+
 programa
 {
 	
