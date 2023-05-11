@@ -3,17 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor[10] = {2, 5, 1, 3, 4, 9, 7, 8, 10, 6} //vetor fixo
+		inteiro vetor[10]
 		inteiro i, j, temp //contadores
-		/*
-		 * para ler os valores de um vetor de 10 posições a partir do usuário
-		 * escreva("Vetor \n")
+		
+		/*ler os elementos do vetor*/
+		escreva("Insira valores inteiros \n")
 		para(i=0; i<10; i++){
-			escreva("Posição ", i+1, ": \n")
+			escreva(i+1, ": ")
 			leia(vetor[i])
 			}
 		limpa()
-		*/
+
 		para(j=1; j<10; j++)
 			para(i=0; i<9; i++){
 				se(vetor[i] < vetor[i+1]){
